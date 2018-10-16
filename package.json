@@ -1,0 +1,20 @@
+{
+  "name": "readability-server",
+  "version": "1.0.0",
+  "description": "Strip pages for readability",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Mann <8enmann@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsdom": "^11.6.0",
+    "readability": "github:mozilla/readability",
+    "node-readability": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
