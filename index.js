@@ -17,6 +17,7 @@ app.get('/', async (req, res) => {
       res.send(result.content)
     }
   } catch (e) {
+    console.error(e)
     res.send('failed to parse ' + e)
   }
 })
